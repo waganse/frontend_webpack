@@ -1,0 +1,58 @@
+<% extend './_layout.ect' %>
+
+<% @lang = 'ja' %>
+<% @keywords = 'keywords' %>
+<% @title = 'Title' %>
+
+<!-- Variables -->
+<% block 'html' : %>
+<html lang="<%= @lang %>">
+<% end %>
+
+<% block 'meta' : %>
+<title><%= @title %></title>
+<meta name="keywords" content="<%= @keywords %>" />
+<% end %>
+
+<% block 'ogp' : %>
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:image" content="sample.png" />
+<% end %>
+
+<% block 'twitter' : %>
+<meta name="twitter:card" content="photo" />
+<meta name="twitter:site" content="@yoz_dev" />
+<meta name="twitter:url" content="" />
+<meta name="twitter:image" content="sample.png" />
+<% end %>
+
+<% block 'langAnnotation' : %>
+<% end %>
+
+<% block 'mobileAnnotation' : %>
+<link href="" rel="alternate" />
+<% end %>
+
+<% block 'canonical' : %>
+<link rel="canonical" href="">
+<% end %>
+
+<% block 'css' : %>
+    <!-- css:app -->
+<% end %>
+
+<% block 'header' : %>
+<% end %>
+
+<% block 'main' : %>
+<% end %>
+
+<% block 'footer' : %>
+<% end %>
+
+<% block 'js' : %>
+<!-- js:app -->
+<% end %>

@@ -1,0 +1,70 @@
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background: #f5f5f5;
+    color: #555;
+    padding: 30px;
+    width: 100%;
+
+    li,
+    ol {
+        list-style-type: none;
+    }
+
+    h2 {
+        width: 100%;
+        border-bottom: 1px solid #555;
+        color: #555;
+        font-weight: normal;
+        margin-bottom: 20px;
+        padding: 5px 10px;
+    }
+
+    h3 {
+        color: #555;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+}
+
+#contents {
+    width: 95%;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+
+    .list {
+        border-bottom: 1px solid #aaa;
+        padding: 0;
+        margin-bottom: 30px;
+
+        &-item {
+            background: #fff;
+            border: 1px solid #aaa;
+            border-bottom: none;
+
+            a {
+                color: #777;
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+
+                &:hover {
+                    background: #ddd;
+                    color: #333;
+                }
+            }
+        }
+    }
+
+    &.template {
+        position: absolute;
+        bottom: 20px;
+        text-align: center;
+    }
+}

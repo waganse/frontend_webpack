@@ -1,0 +1,16 @@
+# Extensions to ignore
+**/*.log
+
+# OS or editor files
+**/.DS_Store
+**/Thumbs.db
+
+# Dependency directories
+**/node_modules/
+
+# Excluding files from project
+**/dist/
+**/src/img/sprite*
+**/src/scss/_sprite.scss
+
+**/package-lock.json
